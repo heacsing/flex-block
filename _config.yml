@@ -20,8 +20,8 @@ large_legnth:
 # docs: https://hitokoto.cn/api
 # type: [a, b, c, d, e, f, g]
 hitokoto:
-  enable: true
-  type: a
+  enable: false
+  type: k
 
 # valine 评论
 # docs: https://valine.js.org

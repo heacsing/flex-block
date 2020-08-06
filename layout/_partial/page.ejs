@@ -66,12 +66,11 @@
             <figure class="bookmark-card">
               <a class="bookmark-container" target="_blank" title="<%= link.name %>" href="<%= link.link %>">
                 <div class="bookmark-content">
-                  <div class="bookmark-name"><%= link.name %></div>
-                  <div class="bookmark-link"><%= link.link %></div>
+                  <div class="bookmark-name"><%= link.describe %></div>
                 </div>
                 <% if (link.cover) { %>
                   <div class="bookmark-cover">
-                    <img src="<%= link.cover %>" alt="<%= link.name %>" />
+                    <img src="<%= link.cover %>" alt="<%= link.describe %>" />
                   </div>
                 <% } %>
               </a>
